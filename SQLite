@@ -1,0 +1,6 @@
+CREATE TABLE clientes (
+    id INTEGER PRIMARY KEY,
+    nome TEXT NOT NULL,
+    status TEXT NOT NULL
+);
+INSERT INTO clientes (nome, status) VALUES ('Cliente Exemplo', 'ativo');
